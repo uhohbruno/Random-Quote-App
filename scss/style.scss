@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+  
+
+body {
+  background: rgb(75, 138, 189);
+font-family:'Slabo 27px', serif;  
+transition: all 2s;
+}
+.container {
+  
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.quotebox {
+  background: #fff;
+display: grid;
+grid-template-columns: 1fr;
+grid-column: 2;
+grid-row: auto;
+font-size: 12px;
+text-align: center;
+transform-origin:top;
+transform: scaleY(1);
+transition: all 1s ;
+
+
+.quote {
+  grid-column: 1 / span 3;
+  margin: 0 20px 0 20px;
+
+}
+
+}
+.author {
+    grid-column: 1 / span 3;
+  grid-row: 2;
+  
+}#tweetbutton {
+  grid-column: 1;
+  text-align: left;
+  margin: 20px;
+  
+
+.twitter-share-button {
+    background: rgb(75, 138, 189);
+    color: #fff;
+    text-decoration: none;
+    transition: all 1s;
+}}
+#quotebutton {
+  grid-column: 3;
+  align-self: center;
+  margin: 20px;
+}
+.left{
+  text-align: left;
+
+}
+.right {
+  text-align: right;
+
+}
+.txt {
+  opacity: 1;
+  transition: opacity 2s ;
+}
